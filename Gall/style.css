@@ -1,4 +1,4 @@
-/* * {
+* {
     padding: 0;
     margin: 0;
 }
@@ -10,7 +10,7 @@ body {
 .catalog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); 
+    /* grid-template-rows: repeat(3, 1fr); */
     width: auto;
 }
 
