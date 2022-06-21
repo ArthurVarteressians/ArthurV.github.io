@@ -10,7 +10,7 @@ body {
 .catalog {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    /* grid-template-rows: repeat(3, 1fr); */    
+    /* grid-template-rows: repeat(3, 1fr); */
     width: auto;
 }
 
@@ -56,7 +56,7 @@ body {
     .catalog {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
+        /* grid-template-rows: repeat(1, 1fr); */
     }
 
     img {
@@ -73,7 +73,7 @@ body {
     .catalog {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(1, 1fr);
+        /* grid-template-rows: repeat(1, 1fr); */
     }
 
     img {
