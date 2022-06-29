@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="style.css">
     <script src="index.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <title>Allen Shp</title>
 </head>
 
 <body>
+    <a href="#catalog"><button onclick="topFunction()" id="topBtn" title="Go to top">TOP</button></a>
+   
     <main>
         <div class="main">
-            <div class="logo">
-                <a id="myButton">
-                    <img id="myLogo" src="https://firebasestorage.googleapis.com/v0/b/allenshp.appspot.com/o/album-art-works%2F%5B8%5D%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20MY%20NAME%20IS%20YOU%20KNOW%20WHAT.JPG?alt=media&token=3701df9b-b10f-4e03-97df-dfed275a914b"></a>
+            <div class="logo" id="myLogo">
+                <a href="#catalog" id="myButton">
+                    <img id="myLogo" src="Logopic.PNG"></a>
             </div>
         </div>
     </main>
 
 
-    <div class="catalog">
+    <div class="catalog" id="catalog">
         <div class="artwork">
             <div class="image">
                 <img
@@ -282,5 +284,4 @@
         </div>
     </div>
 </body>
-
 </html>
